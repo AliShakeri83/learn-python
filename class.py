@@ -6,6 +6,7 @@ class Circle(Point):
     def __init__(self,x, y , r):
         super().__init__(x, y)
         self.r = r
+        # g
     def Area(self):
         return 2 * 3.14 * (self.r)
     def perime (self):
